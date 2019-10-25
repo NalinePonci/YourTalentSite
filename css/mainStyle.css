@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+@import url('https://fonts.googleapis.com/css?family=Francois+One');
+.header-site {
+    background-image: url(../IMG/capa15.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: rgb(0, 0, 0);
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+}
+.corpo-download{
+    padding-top:162px;
+    padding-bottom: 100px; 
+}
+.celapple {
+    width: 28%;
+    height: 90%;
+    margin-left: 0%;
+    margin-top: -93px;
+}
+.celandroid {
+    width: 28%;
+    height: 90%;
+    margin-left: 0%;
+    margin-top: -93px;
+}
+.corpo-site {
+    padding-top: 223px;
+    padding-bottom: 150px;
+}
+.secao-esportes {
+    justify-content: center !important;
+    text-align: center !important;
+}
+.corpo-esportes{
+    padding-top:125px;
+    padding-bottom: 100px; 
+}
+.corpo-eSport {
+    padding-top: 125px;
+    padding-bottom: 100px;
+}
+
+.img-transicao {
+    background-image: url(../IMG/lol2.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: rgb(0, 0, 0);
+}
+
+.img-transicao1 {
+    background-image: url(../IMG/capa1.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: rgb(0, 0, 0);
+}
+
+.img-transicao3 {
+    background-image: url(../IMG/bkRODAPE.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: rgb(0, 0, 0);
+}
+
+.img-transicao4 {
+    background-image: url(../IMG/bkDOWNLOAD.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 250px;
+    padding-bottom: 250px;
+    color: rgb(0, 0, 0);
+}
+
+.titulo-ytalent {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 90px;
+    text-align: center;
+    color: white;
+    transition: 0.6s;
+}
+
+.titulo-ytalent:hover {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 93px;
+    margin-bottom: 21px;
+    text-align: center;
+    color: white;
+    transition: 0.6s;
+    margin-top: -10px;
+}
+
+.slogan-ytalent {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    transition: 0.5s;
+}
+
+.slogan-ytalent:hover {
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #ffffff;
+    font-style: italic;
+    margin-bottom: 18px;
+    margin-top: -9px;
+    transition: 0.5s;
+}
+
+
+/*foto de baquete*/
+
+.foto-basquete {
+    width: 330px;
+    height: 220px;
+}
+
+.zoom {
+    overflow: hidden;
+}
+
+.zoom-fotos {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.zoom-fotos:hover {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+span {
+    color: #fa8908;
+}
+
+label {
+    margin: 0 40px 0 0;
+    font-size: 26px;
+    line-height: 70px;
+    display: none;
+    width: 26px;
+    float: right;
+}
+
+#toogle {
+    display: none;
+}
+
+
+/*--------------MENUUUU----*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    z-index: 2;
+    transition: 0.5s;
+    background-color: #00000067;
+    box-shadow: 2px 1px 10px 0px;
+}
+
+nav ul {
+    float: right;
+    margin: 14px;
+    padding-right: 42px;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-family: 'Francois One', sans-serif;
+    transition: 0.3s;
+}
+
+.efeito-menu:hover {
+    text-decoration: none;
+    transition: 0.3s;
+    color: #b668ffb9;
+}
+
+.logo {
+    height: 100px;
+    float: left;
+    margin: 10px 40px;
+}
+
+nav.black {
+    /* background: rgb(255, 250, 250, 0.6);
+     */
+     background: #00000067;
+}
+
+.title-navbar {
+    padding-left: 10px;
+}
+
+
+/*FOOTER*/
+
+.footerDesing {
+    height: 150px;
+    background: #000000;
+    color: #fff;
+}
+
+.texto-footer {
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Francois One', sans-serif;
+}
+
+.titulo-esportes {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.logo-footer {
+    padding-top: 12px;
+    float: left;
+}
+
+.botao {
+    display: none;
+}
+
+
+/*FOOTER*/
+
+.footer {
+    height: 270px;
+    background: #000000;
+}
+
+.position-icones {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.logo-face {
+    padding-left: 15px;
+}
+
+.logo-tw {
+    padding-left: 15px;
+}
+
+.logo-insta {
+    padding-left: 15px;
+}
+
+.logo-yt {
+    padding-left: 15px;
+}
+
+.text-footer {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.footer ul li {
+    display: inline-block;
+    padding: 16px 15px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: rgb(223, 216, 210);
+    font-size: 22px;
+    font-family: 'Francois One', sans-serif;
+    transition: 0.3s;
+}
+
+.end-footer {
+    background: #080808;
+    width: 100%;
+    height: 70px;
+    margin-top: 35px;
+}
+
+.copyright-footer {
+    color: #ffffff;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 22px;
+}
+
+.appleDownload2 {
+    display: none;
+}
+
+.androidDownload2 {
+    display: none;
+}
+
+
+/*Responsividade*/
+
+@media only screen and (max-width: 800px) {
+    /*secao dowload*/
+    .corpo-download {
+        margin-bottom: 50px;
+    }
+    /*botao*/
+    .appstoredownload {
+        display: none;
+    }
+    .playstoredownload {
+        display: none;
+    }
+    .celapple {
+        width: 144px;
+        height: 300px;
+        margin-left: 4%;
+    }
+    .celandroid {
+        width: 155px;
+        height: 300px;
+        margin-left: 2%;
+    }
+    .appleDownload2 {
+        float: left;
+        display: block;
+        padding-top: 7%;
+        margin-left: 8%;
+        padding-right: 3%;
+    }
+    .androidDownload2 {
+        display: flex;
+        padding-top: 7%;
+    }
+    .text-footer {
+        display: none;
+    }
+    .card {
+        margin-left: 8%;
+    }
+    nav ul li {
+        display: block;
+        padding-bottom: 5px;
+    }
+    .efeito-menu {
+        border-bottom: 1px solid rgb(165, 103, 103);
+    }
+    .logo {
+        height: 30px;
+    }
+    label {
+        display: block;
+        cursor: pointer;
+    }
+    .text-navbar {
+        text-align: center;
+        width: 100%;
+        display: none;
+        background: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-left: 10%;
+    }
+    .text-navbar a {
+        display: block;
+        margin: 0;
+    }
+    #toogle:checked+.text-navbar {
+        display: block;
+    }
+    .titulo-ytalent {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 30px;
+        text-align: center;
+        color: #000000;
+    }
+    .titulo-ytalent:hover {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 32px;
+        text-align: center;
+        color: #ffffff;
+        transition: 0.6s;
+    }
+    .slogan-ytalent {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 15px;
+        text-align: center;
+        color: #000000;
+        font-style: italic;
+    }
+    .slogan-ytalent:hover {
+        font-family: 'Baloo Bhai', cursive;
+        font-size: 16px;
+        text-align: center;
+        color: #ffffff;
+        font-style: italic;
+        transition: 0.5s;
+    }
+    .nav.black {
+        background: rgb(255, 250, 250, 0.6);
+    }
+    /* Download */
+    /* Donwload title */
+    .downloadtitulo {
+        margin-top: 15px;
+    }
+    .downloadtituloh1 {
+        font-size: 20.3px;
+    }
+    /* Download button */
+    .appstoredownload {
+        position: relative;
+        width: 95px;
+        height: 30px;
+    }
+    .playstoredownload {
+        position: relative;
+        margin-left: 30px;
+        width: 95px;
+        height: 30px;
+    }
+    /*FOOTER*/
+    .end-footer {
+        height: 120px;
+    }
+}
+
+.playstoredownload {
+    margin-left: 180px;
+}
+
+#cardbox {
+ 
+    box-shadow: -2px 3px 9px 0px rgba(0, 0, 0, 0.75);
+}
